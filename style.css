@@ -304,27 +304,31 @@ div hr{
 }
 
 #icon-italian{
-
+    margin-right: 16px;
 }
 
 #icon-asian{
-    margin: 0 15px;
+    margin: 0 16px;
 }
 
 #icon-bars{
-
+    margin: 0 16px;
 }
 
 #icon-burgers{
-
+    margin: 0 16px;
 }
 
 #icon-cafe{
-
+    margin: 0 16px;
 }
 
 #icon-pubs{
+    margin: 0 16px;
+}
 
+#icon-vegan{
+    margin: 0 17px;
 }
 
 #icon-vegan img{
@@ -332,10 +336,18 @@ div hr{
     width: 25px;
 }
 
+#icon-seafood{
+    margin: 0 17px;
+}
+
 #icon-seafood img{
     height: 33px;
     width: 33px;
     margin: 2px 2px 0 0;
+}
+
+#icon-more{
+    margin-left: 17px;
 }
 
 #icon-more span{
