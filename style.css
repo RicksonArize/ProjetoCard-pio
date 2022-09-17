@@ -1,0 +1,344 @@
+*{ /*padding: 0;*/
+    margin: 0;
+}
+
+body{
+    background-color: #ddd4da;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+}
+
+#div-principal{
+    background-color: #ffffff;
+    width: 1100px;
+    height: 700px;
+    margin: 15px auto;
+    border-radius: 30px;
+
+}
+
+#div-menu{
+    background-color: #000;
+    width: 200px;
+    height: 700px;
+    border-radius: 30px 0 0 30px;
+    float: left;
+}
+
+#div-direita{
+    width: 880px;
+    height: 550px;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-titulo{
+    color: #ffffff;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#menu-img{
+    height: 120px;
+}
+
+/*#fundo-lindo{
+    
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}*/
+
+.container figure.icon{
+    margin: 0px auto;
+    height: 62px;
+    width: 62px;
+    border-radius: 50px;
+    background-image: url('./imagens/fundo.jpg');
+ 
+}
+
+.container figure.icon img{
+ 
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+#text-menu1{
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#titulo-menu2{
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+
+#menu-menu{
+    margin-top: 40px;
+    height: 160px;
+}
+
+.icons{
+    color: #ffffff;
+    filter: invert(50%);
+    margin-right: 5px;
+}
+
+#menu-menu div{
+    margin: 20px 0 20px 50px;
+}
+
+#menu-menu a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#menu-menu a:link{
+    color: gray;
+}
+
+#menu-menu a:visited{
+    color: gray;
+}
+
+#menu-menu a:hover{
+    color: #ffffff;
+}
+
+#menu-menu a:active{
+    color: #ffffff;
+}
+
+#menu-gps{
+    padding: 15px;
+    margin-top: 25px;
+}
+
+#menu-gps img{
+    border: 1px #000 solid; 
+    margin-left: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* Div principal Direita*/
+
+#div-top{
+    border: 1px solid red;
+    height: 70px;
+    padding: 35px 35px 0 35px;
+}
+
+#div-pesquisa{
+    float: left;
+    margin-top: 13px;
+}
+
+#pesquisa-left{
+    float: left;
+    margin-right: 10px;
+}
+
+div hr{
+    margin-top: 3px;
+    border: solid 0,2px gray;
+    opacity: 50%;
+    width: 350px;
+}
+
+#pesquisa-right{
+    float: left;
+    border: none;
+}
+
+#pesquisa-right input{
+    border: none;
+    color: gray;
+    opacity: 70%;
+    font-size: 11.5px;
+}
+
+#pesquisa-right input:focus {
+    outline: none;
+    color: #000;
+  }
+
+#div-premium{
+    margin-right: 30px;
+    float: right;
+}
+
+#premium-left{
+    float: left;
+    margin: 10px;
+}
+
+#premium-right{
+    float: right;
+    background-color: #000;
+    color: #ffffff;
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 10px;
+    text-align: center;
+    font: bold;
+    padding-top: 15px;
+}
+
+#div-titulo{
+    border: 1px solid red;
+    height: 70px;
+    padding: 30px 35px 0 35px;
+}
+
+#titulo1{
+    font-size: 40px;
+    margin-bottom: 3px;
+}
+
+#titulo2{
+    font-weight: bold;
+    color: gray;
+    opacity: 80%;
+}
+
+#titulo3{
+    color: gray;
+}
+
+#titulo-left{
+    float: left;
+}
+
+#titulo-right{
+    text-align: center;
+    float: right;
+    width: 140px;
+    margin-right: 35px;
+    margin-top: 13px;
+}
+
+#subtitulo-left{
+    float: left;
+    margin-right: -8px;
+    /*border-right: gray;
+    width: 87px;*/
+}
+
+#subtitulo-left span{
+    color: gray;
+    font-size: 13.1px;
+    opacity: 70%;
+}
+
+#subtitulo-left h1{
+    font-size: 28px;
+    margin-bottom: 3px;
+}
+
+#subtitulo-right{
+    float: right;
+}
+
+#subtitulo-right span{
+    color: gray;
+    font-size: 13.1px;
+    opacity: 70%;
+}
+
+#subtitulo-right h1{
+    font-size: 28px;
+    margin-bottom: 3px;
+}
+
+#subtitulo-center{
+    float: left;
+    width: 10px;
+}
+
+.vr{
+    transform: rotate(90deg);
+    border: solid 0,2px gray;
+    width: 55px;
+    margin-top: 26px;
+    opacity: 55%;
+}
+
+/* DIV ICONS*/
+
+#div-icons{
+    border: red 1px solid;
+    height: 110px;
+    padding: 30px 35px 0 35px;
+}
+
+#div-icons div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: red 1px solid;
+    float: left;
+    background-color: gray;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+#icon-italian{
+
+}
+
+#icon-asian{
+    margin: 0 15px;
+}
+
+#icon-bars{
+
+}
+
+#icon-burgers{
+
+}
+
+#icon-cafe{
+
+}
+
+#icon-pubs{
+
+}
+
+#icon-vegan img{
+    height: 25px;
+    width: 25px;
+}
+
+#icon-seafood img{
+    height: 33px;
+    width: 33px;
+    margin: 2px 2px 0 0;
+}
+
+#icon-more span{
+    font-size: 40px;
+    margin-bottom: 3px;
+}
