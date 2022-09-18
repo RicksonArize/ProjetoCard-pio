@@ -142,7 +142,6 @@ body{
 /* Div principal Direita*/
 
 #div-top{
-    border: 1px solid red;
     height: 70px;
     padding: 35px 35px 0 35px;
 }
@@ -205,7 +204,6 @@ div hr{
 }
 
 #div-titulo{
-    border: 1px solid red;
     height: 70px;
     padding: 30px 35px 0 35px;
 }
@@ -286,8 +284,7 @@ div hr{
 /* DIV ICONS*/
 
 #div-icons{
-    border: red 1px solid;
-    height: 110px;
+    height: 60px;
     padding: 30px 35px 0 35px;
 }
 
@@ -295,7 +292,6 @@ div hr{
     justify-content: center;
     display: flex;
     align-items: center;
-    border: red 1px solid;
     float: left;
     background-color: gray;
     width: 55px;
@@ -303,54 +299,167 @@ div hr{
     border-radius: 50%;
 }
 
-#icon-italian{
+.icon-italian{
     margin-right: 16px;
 }
 
-#icon-asian{
+.icon-asian{
+    margin: 0 19px;
+}
+
+.icon-bars{
     margin: 0 16px;
 }
 
-#icon-bars{
-    margin: 0 16px;
-}
-
-#icon-burgers{
-    margin: 0 16px;
-}
-
-#icon-cafe{
-    margin: 0 16px;
-}
-
-#icon-pubs{
-    margin: 0 16px;
-}
-
-#icon-vegan{
+.icon-burgers{
     margin: 0 17px;
 }
 
-#icon-vegan img{
+.icon-cafe{
+    margin: 0 17px;
+}
+
+.icon-pubs{
+    margin: 0 18px;
+}
+
+.icon-vegan{
+    margin: 0 17px;
+}
+
+.icon-vegan img{
     height: 25px;
     width: 25px;
 }
 
-#icon-seafood{
-    margin: 0 17px;
+.icon-seafood{
+    margin: 0 18px;
 }
 
-#icon-seafood img{
+.icon-seafood img{
     height: 33px;
     width: 33px;
     margin: 2px 2px 0 0;
 }
 
-#icon-more{
+.icon-more{
+    font-size: 40px;
     margin-left: 17px;
 }
 
-#icon-more span{
-    font-size: 40px;
+.icon-more span{
     margin-bottom: 3px;
 }
+
+#div-icons-name{
+    padding: 0 35px;
+    height: 30px;
+}
+
+#div-icons-name div{
+    float: left;
+}
+
+#div-icons-name div span{
+    font-size: 13px;
+    color: gray;
+}
+
+.icon-italian-name{
+    margin: 0 3px 0 6px;
+}
+
+.icon-asian-name{
+    margin: 0 30px 0 47px;
+}
+
+.icon-bars-name{
+    margin: 0 30px 0 29px;
+}
+
+.icon-burgers-name{
+    margin: 0 30px 0 18px;
+}
+
+.icon-cafe-name{
+    margin: 0 30px 0 17px;
+}
+
+.icon-pubs-name{
+    margin: 0 30px 0 31px;
+}
+
+.icon-vegan-name{
+    margin: 0 30px 0 26px;
+}
+
+.icon-seafood-name{
+    margin: 0 30px 0 11px;
+}
+
+.icon-more-name{
+    margin: 0 29px 0 12px;
+}
+
+#div-new{
+    padding: 35px 35px 0 35px;
+    height: 30px;
+}
+
+#div-new h2{
+    font-size: 30px;
+}
+
+#new-left{
+    float: left;
+}
+
+#new-right{
+    float: right;
+    height: 45px;
+    margin-top: -22px;
+    margin-right: 36px;
+    
+}
+
+#new-right-slider{
+}
+
+#new-rigth-4km{
+    background-color: gray;
+    font-size: 13px;
+    font-weight: bold;
+    width: 45px;
+    height: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    margin: 13px 0 -2px 47px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 140px;
+    height: 3px;
+    border-radius: 5px;
+    background: #000;
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 11px;
+    height: 11px;
+    border: solid 3px #000;
+    border-radius: 50%; 
+    background: #ffffff;
+    cursor: pointer;
+  }
+  
+
+  
