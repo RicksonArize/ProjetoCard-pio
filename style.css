@@ -64,7 +64,7 @@ body{
     height: 62px;
     width: 62px;
     border-radius: 50px;
-    background-image: url('./imagens/fundo.jpg');
+    background-image: url('./imagens/branco.jpeg');
  
 }
 
@@ -109,6 +109,11 @@ body{
 #menu-menu a{
     text-decoration: none;
     font-size: 12px;
+}
+
+#menu-menu span{
+    position: relative;
+    bottom: 3px;
 }
 
 #menu-menu a:link{
@@ -215,12 +220,13 @@ div hr{
 
 #titulo2{
     font-weight: bold;
-    color: gray;
-    opacity: 80%;
+    color: #000;
+    opacity: 70%;
 }
 
 #titulo3{
-    color: gray;
+    color: #000;
+    opacity: 40%;
 }
 
 #titulo-left{
@@ -293,7 +299,7 @@ div hr{
     display: flex;
     align-items: center;
     float: left;
-    background-color: gray;
+    background-color:;
     width: 55px;
     height: 55px;
     border-radius: 50%;
@@ -301,30 +307,37 @@ div hr{
 
 .icon-italian{
     margin-right: 16px;
+    background-color: #f0faf1;
 }
 
 .icon-asian{
     margin: 0 19px;
+    background-color: #f2f0f0;
 }
 
 .icon-bars{
     margin: 0 16px;
+    background-color: #f5e5e4;
 }
 
 .icon-burgers{
     margin: 0 17px;
+    background-color: #f2fcf3;
 }
 
 .icon-cafe{
     margin: 0 17px;
+    background-color: #fcf8f2;
 }
 
 .icon-pubs{
     margin: 0 18px;
+    background-color: #edeefa;
 }
 
 .icon-vegan{
     margin: 0 17px;
+    background-color: #faf9ed;
 }
 
 .icon-vegan img{
@@ -334,6 +347,7 @@ div hr{
 
 .icon-seafood{
     margin: 0 18px;
+    background-color: #f3faed;
 }
 
 .icon-seafood img{
@@ -345,6 +359,7 @@ div hr{
 .icon-more{
     font-size: 40px;
     margin-left: 17px;
+    background-color: #ede8e8;
 }
 
 .icon-more span{
@@ -422,9 +437,6 @@ div hr{
     
 }
 
-#new-right-slider{
-}
-
 #new-rigth-4km{
     background-color: gray;
     font-size: 13px;
@@ -469,30 +481,44 @@ div hr{
 
   #div-bottom-left{
     float: left;
-    background-color: #dcdcdc;
+    background-color: #f2f2f2;
     height: 250px;
     width: 180px;
     border-radius: 15px;
-    margin-right: 35px;
+    margin-right: 40px;
   }
 
   #div-bottom-left-center{
     float: left;
-    background-color: #dcdcdc;
+    position: relative;
+    left: 15px;
+    background-color: #f5e5e4;
     height: 250px;
     width: 180px;
     border-radius: 15px;
-    margin-right: 35px;
+    margin-right: 40px;
     margin-top: -20px;
   }
   
   #div-bottom-right-center{
     float: left;
-    background-color: #dcdcdc;
+    position: relative;
+    left: 25px;
+    background-color: #e4f5eb;
     height: 250px;
     width: 180px;
     border-radius: 15px;
-    margin-right: 35px;
+    margin-right: 45px;
+  }
+
+  #div-bottom-right{
+    position: relative;
+    left: 30px;
+    float: left;
+    background-color: #f4f5e4;
+    height: 250px;
+    width: 180px;
+    border-radius: 15px;
   }
 
 
@@ -533,6 +559,17 @@ div hr{
 
   #bottom-titulo-3 span{
     margin: 0 40px;
+    font-size: 10px;
+    opacity: 50%;
+  }
+
+  #bottom-titulo-4{
+    float: left;
+    margin: 0 48px;
+  }
+
+  #bottom-titulo-4 span{
+    margin: 0 28px;
     font-size: 10px;
     opacity: 50%;
   }
