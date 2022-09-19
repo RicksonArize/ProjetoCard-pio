@@ -141,6 +141,7 @@ body{
     border: 1px #000 solid; 
     margin-left: 10px;
     width: 150px;
+    height: 204px;
     border-radius: 10px;
 }
 
@@ -299,7 +300,6 @@ div hr{
     display: flex;
     align-items: center;
     float: left;
-    background-color:;
     width: 55px;
     height: 55px;
     border-radius: 50%;
